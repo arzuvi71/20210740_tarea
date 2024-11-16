@@ -20,6 +20,7 @@ public class ArbitroServlet extends HttpServlet {
         ArrayList<String> opciones = new ArrayList<>();
         opciones.add("nombre");
         opciones.add("pais");
+        //Esto es un cambio
 
         switch (action) {
 
